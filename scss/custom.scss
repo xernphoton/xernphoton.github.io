@@ -1,0 +1,31 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$body-bg: #262A33;
+$body-color: #43FFAF;
+$mac: #D90368;
+$linux: #F75C03;
+$windows: #048BA8;
+
+html {
+    font-family: Helvetica;
+}
+
+body {
+    color: $body-color;
+    background-color: $body-bg;
+}
+
+.linux {
+    color: #fff;
+    background-color: $linux;
+}
+
+.mac {
+    color: #fff;
+    background-color: $mac;
+}
+
+.windows {
+    color: #fff;
+    background-color: $windows;
+}
